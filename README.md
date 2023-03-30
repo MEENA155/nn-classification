@@ -49,7 +49,7 @@ Save the model using pickle
 
 STEP 11:
 Using the DL model predict for some random inputs data and then predict using Tensorflow
-```
+
 ## PROGRAM
 ```
 Registration Number: 212221240028
@@ -195,7 +195,7 @@ y_test_truevalue = np.argmax(y_test,axis=1)
 y_test_truevalue.shape
 print(confusion_matrix(y_test_truevalue,x_test_predictions))
 print(classification_report(y_test_truevalue,x_test_predictions))
-     
+     ```
 # Saving the Model
 ai_brain.save('customer_classification_model.h5')
 
