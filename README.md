@@ -17,14 +17,14 @@ You are required to help the manager to predict the right group of the new custo
 
 
 ## DESIGN STEPS
-
+```
 STEP 1:
 Load the csv file and then use the preprocessing steps to clean the data
 STEP 2:
 Split the data to training and testing
 STEP 3:
 Train the data and then predict using Tensorflow
-
+```
 ## PROGRAM
 ```
 Registration Number: 212221240028
