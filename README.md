@@ -27,6 +27,8 @@ Train the data and then predict using Tensorflow
 
 ## PROGRAM
 ```
+Registration Number: 212221240028
+Name: Meena S
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
@@ -200,14 +202,17 @@ print(le.inverse_transform(x_single_prediction))
 
 
 ### Classification Report
+![228419338-9530f711-63cf-421c-9472-0d1504bd25fd](https://user-images.githubusercontent.com/94677128/228746445-aea5a61a-3e22-430c-b21f-46ae559fa75f.png)
 
 
 ### Confusion Matrix
 
+![228419424-ddce07e2-b2ff-4d7b-988c-8070ce1bf1c8](https://user-images.githubusercontent.com/94677128/228746494-31f0bed2-24cc-459d-90cd-633773c9bcfa.png)
 
 
 ### New Sample Data Prediction
+![228420227-57cefc2d-f38d-4b67-9f8c-69e69a2fe160](https://user-images.githubusercontent.com/94677128/228746535-d72f4db7-12a5-4310-bf9c-c5520702cad7.png)
 
-Include your sample input and output here
 
 ## RESULT
+Thus, a Simple Neural Network Classification Model is developed successfully.
